@@ -25,6 +25,7 @@ SHA256SUMS never lists itself.
 import sys, os, re, json, glob, hashlib
 
 here = os.path.dirname(os.path.abspath(__file__))
+sys.dont_write_bytecode = True  # importing validate_run must not add runner/__pycache__ to the package
 sys.path.insert(0, os.path.join(here, "runner"))
 import validate_run as V  # noqa: E402
 
@@ -319,7 +320,8 @@ def main():
             f.write("\t".join(r) + "\n")
     json.dump(params, open(os.path.join(rd, "parameters.json"), "w"), indent=1)
     out = []
-    for root, _, files in os.walk(rd):
+    for root, dirs, files in os.walk(rd):
+        dirs[:] = [x for x in dirs if x != "__pycache__" and not x.startswith(".")]  # e.g. .git in a checkout
         for fn in sorted(files):
             p = os.path.join(root, fn); rel = os.path.relpath(p, rd)
             if rel == "SHA256SUMS" or fn.startswith("."):

@@ -1,10 +1,10 @@
-# Reproducing the computations (main_theory_v7)
+# Reproducing the computations (main_theory_v8)
 
 The proofs in the paper do not depend on these computations. They check the stated identities and degrees and
 recompute Table 1.
 
 ## Contents
-- `paper/main_theory_v7.tex`, `paper/main_theory_v7.pdf` — the manuscript.
+- `paper/main_theory_v8.tex`, `paper/main_theory_v8.pdf` — the manuscript.
 - `magma/` — Magma scripts listed in Appendix A, plus `r06_t1_expected.m` (expected parameter list of the ring-model logs).
 - `logs/` — Magma output (A9). Completion of a Magma run is judged by its final assertion/PASS line; the operating-system
   exit status was not recorded.
@@ -14,7 +14,19 @@ recompute Table 1.
 - `expected_runs.tsv`, `expected_magma_ring.tsv` — what the manifest must find; `make_manifest.py` — fail-closed
   aggregator writing `TABLE_PROVENANCE.tsv`, `parameters.json`, `SHA256SUMS`.
 
-## Commands
+## 1. Byte-for-byte check of the published manifest (first, on an untouched unpacked copy)
+```sh
+python3 -B make_manifest.py . studio_runs/runs   # rewrites TABLE_PROVENANCE.tsv, parameters.json, SHA256SUMS
+git diff --stat                                   # (in a git checkout) or compare with the files of the archive: no change
+python3 -B runner/test_manifest.py .              # 35 aggregator controls
+```
+`-B` keeps Python from writing `__pycache__`; the aggregator also sets this itself and never hashes `__pycache__`.
+
+## 2. Rerunning the computations (on a separate copy)
+Compiling the runner and new runs add files, so the SHA256SUMS of that copy will differ from the published one; the
+recorded runs in `studio_runs/runs/` and the logs in `logs/` are the ones the paper uses. Magma writes to standard
+output; the comments `# -> ../logs/...` name the published log of each run, and a new output can be saved with
+`> new.log`.
 ```sh
 # Magma (any recent version), run from the magma/ directory of the package
 cd magma
@@ -32,9 +44,6 @@ clang -O3 -o gc_ddt_v2 gc_ddt_v2.c        # or cc -O3
 bash negative_tests.sh                    # 17 runner controls
 cd ..
 
-# Manifest and its negative controls, from the package root
-python3 make_manifest.py . studio_runs/runs
-python3 runner/test_manifest.py .          # 35 aggregator controls
 ```
 
 ## Scope of the checks

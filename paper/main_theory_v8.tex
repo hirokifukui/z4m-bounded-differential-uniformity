@@ -25,7 +25,6 @@
 \address{Research Institute of Criminal Psychiatry / Sex Offender Medical Center, Tokyo, Japan;
 Department of Neuropsychiatry, Kyoto University, Kyoto, Japan}
 \email{fukui@somec.org}
-% ORCID 0009-0008-7122-522X. Affiliations and ORCID as in the author's AFM submission (2026-10-30).
 
 \raggedbottom
 \begin{document}
@@ -35,8 +34,8 @@ controlled. Let $R=\GR(4,m)$ and $q=2^m$, so that $(R,+)\cong(\mathbb Z/4\mathbb
 construct an explicit permutation $G_c$ of $R$ all of whose differentials with a nonzero input difference have probability at most
 $36/N$, whereas every permutation polynomial of $R$ has such a differential of probability at least $2/\sqrt N$
 (R{\o}njom--Sandrib). The bound holds for the fixed permutation itself, not on average over keys. Equivalently, $\Delta(G_c)\le36$
-against $\Delta\ge2\sqrt N$ for permutation polynomials, so the least differential uniformity of a permutation of
-$(\mathbb Z/4\mathbb Z)^m$ lies between $2$ and $36$ for every $m$. In Teichm\"uller digits $(a,b)\in\Fq^2$ and for $c\in\Fq$ of
+against $\Delta\ge2\sqrt N$ for permutation polynomials; since every permutation has $\Delta\ge2$, the least differential
+uniformity of a permutation of $(\mathbb Z/4\mathbb Z)^m$ lies between $2$ and $36$ for every $m$. In Teichm\"uller digits $(a,b)\in\Fq^2$ and for $c\in\Fq$ of
 absolute trace $1$,
 \[
 G_c(a,b)=\bigl(L,\;(L^2+L+c)\,a\bigr),\qquad L=(a^2+a+c)\,b .
@@ -441,7 +440,8 @@ Proposition~\ref{prop:Jsigma}).
 \item \texttt{t6\_sigma\_row.m}: the row $\alpha=(1,0)$ in the coordinate system (Proposition~\ref{prop:sigma}).
 \end{itemize}
 The supplementary material contains the scripts, their raw outputs, a manifest with SHA-256 hashes, and instructions for
-reproducing each run.
+reproducing each run. It is archived with the paper at \url{https://doi.org/10.5281/zenodo.23875215} and at\\
+\url{https://github.com/hirokifukui/z4m-bounded-differential-uniformity}.
 
 \section*{Funding}
 This research received no external funding.
@@ -454,7 +454,7 @@ and takes full responsibility for it. The numerical results were obtained with t
 \begin{thebibliography}{9}
 \bibitem{RS} S.~R{\o}njom, A.~Sandrib, \emph{On the differential uniformity of polynomials over Galois rings}, Cryptogr.\ Commun.\
 \textbf{18}(6) (2026), 2057--2077, \url{https://doi.org/10.1007/s12095-026-00895-x}.
-\bibitem{Tang} D.~Tang, \emph{Three infinite classes of APN permutations on $\mathbb Z_n$}, arXiv:2609.05917 (2026).
+\bibitem{Tang} D.~Tang, \emph{Three infinite classes of APN permutations on $\mathbb Z_n$}, arXiv:2609.05917 (2026), \url{https://arxiv.org/abs/2609.05917}.
 \bibitem{BGORS} T.~Beyne, L.~Grassi, M.~{\O}ygarden, B.~Richterov\'a, A.~Sandrib, \emph{The ABC of symmetric primitives over integer rings:
 milk before meat}, Advances in Cryptology -- CRYPTO 2026, LNCS, Springer, 438--470, \url{https://doi.org/10.1007/978-3-032-35412-9_15};
 extended version: IACR ePrint 2026/1104.
@@ -466,6 +466,6 @@ primitives over rings and a key recovery attack on Rubato}, Advances in Cryptolo
 \bibitem{Monolith} L.~Grassi, D.~Khovratovich, R.~L\"uftenegger, C.~Rechberger, M.~Schofnegger, R.~Walch, \emph{Monolith:
 circuit-friendly hash functions with new nonlinear layers for fast and constant-time implementations}, IACR Trans.\ Symmetric
 Cryptol.\ \textbf{2024}(3), 44--83, \url{https://doi.org/10.46586/tosc.v2024.i3.44-83}.
-\bibitem{Rojas} J.~M.~Rojas, \emph{Toric intersection theory for affine root counting}, J.\ Pure Appl.\ Algebra \textbf{136} (1999), 67--100.
+\bibitem{Rojas} J.~M.~Rojas, \emph{Toric intersection theory for affine root counting}, J.\ Pure Appl.\ Algebra \textbf{136} (1999), 67--100, \url{https://doi.org/10.1016/S0022-4049(98)00023-1}.
 \end{thebibliography}
 \end{document}

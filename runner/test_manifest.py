@@ -101,7 +101,7 @@ def dup_first(pat):
     return f
 
 
-# r06 T1: Magma ring-model log faults (GPT R05 review M1 cases first, then further cases)
+# r06 T1: Magma ring-model log faults (removed rows and markers first, then further cases)
 faults.update({
     "magma_m5_header_and_rows_removed": lambda t: lg_edit(t, L5, lambda s: "\n".join(l for l in s.splitlines() if not l.startswith("m=5")) + "\n"),
     "magma_m5_one_row_removed": lambda t: lg_edit(t, L5, drop_first(r"m=5 c=")),

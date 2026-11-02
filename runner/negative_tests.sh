@@ -1,5 +1,5 @@
 #!/bin/bash
-# r05 negative controls for run_gc_v2.sh: the 13 r04 cases + 2 GPT R04 controls + legitimate empty shards.
+# Negative controls for run_gc_v2.sh: 13 fault cases, 2 checks on shard summaries, and legitimate empty shards.
 # Each fail case must end with exit 1 and no "MAX" line; ok cases must exit 0 with a MAX line.
 set -u
 R=./run_gc_v2.sh; T=$(mktemp -d negtest_XXXX); pass=0; failn=0
@@ -12,7 +12,7 @@ mkfake missing '[ "$4" = 1 ] && { ./gc_ddt_v2 "$1" "$2" "$3" 0; exit $?; }; exec
 mkfake dup_line './gc_ddt_v2 "$@"; ./gc_ddt_v2 "$@"'
 mkfake short_cov 'out=$(./gc_ddt_v2 "$@") || exit $?; echo "$out" | sed -E "s/ndirs=([0-9]+)/ndirs=0/"'
 mkfake wrong_c 'out=$(./gc_ddt_v2 "$@") || exit $?; [ "$4" = 1 ] && out=$(echo "$out" | sed -E "s/ c=([0-9]+)/ c=999/"); echo "$out"'
-# GPT R04 m1: invalid best on a nonempty shard; balanced +1/-1 change of ndirs/alphasum on two shards
+# Shard summaries: invalid best on a nonempty shard; balanced +1/-1 change of ndirs/alphasum on two shards
 mkfake invalid_best 'out=$(./gc_ddt_v2 "$@") || exit $?; echo "$out" | sed -E "s/best=[0-9]+ alpha=[0-9]+ beta=[0-9]+/best=0 alpha=-1 beta=-1/"'
 mkfake balanced_cov 'out=$(./gc_ddt_v2 "$@") || exit $?; case "$4" in 1) d=1;; 2) d=-1;; *) d=0;; esac; echo "$out" | awk -v d=$d '"'"'{for(i=1;i<=NF;i++){split($i,a,"=");if(a[1]=="ndirs"||a[1]=="alphasum")$i=a[1]"="(a[2]+d)};print}'"'"''
 mkfake alpha_wrong_class 'out=$(./gc_ddt_v2 "$@") || exit $?; [ "$4" = 1 ] && out=$(echo "$out" | sed -E "s/ alpha=([0-9]+) / alpha=2 /"); echo "$out"'
