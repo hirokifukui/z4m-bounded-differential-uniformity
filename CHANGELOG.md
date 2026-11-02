@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 (2026-11-02)
+No change to any theorem, proof, table value, recorded computation or script.
+- Paper (`paper/main_theory_v9`): the affiliation and e-mail are also given on the first page (footnote), as the IACR
+  ePrint rules ask; PDF title and author metadata.
+
 ## 1.0.1 (2026-11-02)
 No change to any theorem, proof, table value or recorded computation.
 - Paper (`paper/main_theory_v8`): the abstract states separately that every permutation has Δ ≥ 2 (Proposition 3.2), the

@@ -1,9 +1,9 @@
 # Explicit permutations of (Z/4Z)^m with uniformly bounded differential uniformity
 
-Paper and supplementary material (version 1.0.1) of H. Fukui, *Explicit permutations of (Z/4Z)^m with uniformly
+Paper and supplementary material (version 1.0.2) of H. Fukui, *Explicit permutations of (Z/4Z)^m with uniformly
 bounded differential uniformity*.
 
-This version is archived at Zenodo, DOI [10.5281/zenodo.23875707](https://doi.org/10.5281/zenodo.23875707)
+This version is archived at Zenodo, DOI [10.5281/zenodo.23876071](https://doi.org/10.5281/zenodo.23876071)
 (all versions: [10.5281/zenodo.23875215](https://doi.org/10.5281/zenodo.23875215)).
 
 ## The result
@@ -20,7 +20,7 @@ average over keys. The proof is elementary and does not depend on the computatio
 ## Contents
 | Path | What it is |
 |---|---|
-| `paper/main_theory_v8.tex`, `paper/main_theory_v8.pdf` | the paper (8 pages) |
+| `paper/main_theory_v9.tex`, `paper/main_theory_v9.pdf` | the paper (8 pages) |
 | `REPRODUCE.md` | how to rerun every check (byte check of the manifest first, recomputation on a separate copy) |
 | `magma/`, `logs/` | Magma scripts listed in Appendix A of the paper and their outputs |
 | `runner/` | C program for Table 1 (digit formulas), its fail-closed runner, validator and negative controls |
@@ -32,7 +32,7 @@ average over keys. The proof is elementary and does not depend on the computatio
 
 ## Rebuilding the PDF
 ```
-cd paper && pdflatex main_theory_v8.tex && pdflatex main_theory_v8.tex
+cd paper && pdflatex main_theory_v9.tex && pdflatex main_theory_v9.tex
 ```
 
 ## Licences
