@@ -1,0 +1,563 @@
+{
+ "digit_formula_runs": [
+  {
+   "m": 1,
+   "cidx": 0,
+   "c": 1,
+   "poly": "0x3",
+   "N": 4,
+   "directions": 3,
+   "shards": 20,
+   "Delta": 2,
+   "alpha": 1,
+   "beta": 2,
+   "run_dir": "run_m1_c0_K20_20261030T231222_8s3U",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=1 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "e5ff1b31e4f885d21f53b7426c5fa966e244493d09845405cbcddc1aca960209"
+  },
+  {
+   "m": 2,
+   "cidx": 0,
+   "c": 2,
+   "poly": "0x7",
+   "N": 16,
+   "directions": 15,
+   "shards": 20,
+   "Delta": 4,
+   "alpha": 10,
+   "beta": 7,
+   "run_dir": "run_m2_c0_K20_20261030T231222_e4BQ",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=2 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "2ca31754460c98444450283a9c3832fd149f98986b4a96ad2f642fb166bd9f04"
+  },
+  {
+   "m": 3,
+   "cidx": 0,
+   "c": 1,
+   "poly": "0xB",
+   "N": 64,
+   "directions": 63,
+   "shards": 20,
+   "Delta": 4,
+   "alpha": 10,
+   "beta": 9,
+   "run_dir": "run_m3_c0_K20_20261030T231222_wPhw",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=3 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "719e82f8afb7adf3ae247a6a8cb36fd14271a562e60f6761c6c7a210c0da3316"
+  },
+  {
+   "m": 4,
+   "cidx": 0,
+   "c": 8,
+   "poly": "0x13",
+   "N": 256,
+   "directions": 255,
+   "shards": 20,
+   "Delta": 6,
+   "alpha": 40,
+   "beta": 60,
+   "run_dir": "run_m4_c0_K20_20261030T231222_6tQD",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=4 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "2fb8ece21c56c33edcf86228435d1ad28cd34b224db94d532fe246598e79ca42"
+  },
+  {
+   "m": 5,
+   "cidx": 0,
+   "c": 1,
+   "poly": "0x25",
+   "N": 1024,
+   "directions": 1023,
+   "shards": 20,
+   "Delta": 10,
+   "alpha": 680,
+   "beta": 62,
+   "run_dir": "run_m5_c0_K20_20261030T231222_quUz",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=5 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "a32e9ef53095e7f72187867729b6d84b63ff6345be5439b852c5ffe4ca861fa8"
+  },
+  {
+   "m": 6,
+   "cidx": 0,
+   "c": 32,
+   "poly": "0x43",
+   "N": 4096,
+   "directions": 4095,
+   "shards": 20,
+   "Delta": 9,
+   "alpha": 480,
+   "beta": 2358,
+   "run_dir": "run_m6_c0_K20_20261030T231222_4E3r",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=6 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "2aea36c23768e34b4b58a1791444ffc77cffa128a6c8e07d9d537374210347f0"
+  },
+  {
+   "m": 7,
+   "cidx": 0,
+   "c": 1,
+   "poly": "0x83",
+   "N": 16384,
+   "directions": 16383,
+   "shards": 20,
+   "Delta": 12,
+   "alpha": 7660,
+   "beta": 223,
+   "run_dir": "run_m7_c0_K20_20261030T231222_GpBx",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=7 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "eca54dbaa69285b3fbcc60c87ebbe176fb4c0cb7a78ea7fa1c4d979e31ac74ad"
+  },
+  {
+   "m": 8,
+   "cidx": 0,
+   "c": 32,
+   "poly": "0x11B",
+   "N": 65536,
+   "directions": 65535,
+   "shards": 20,
+   "Delta": 14,
+   "alpha": 5881,
+   "beta": 379,
+   "run_dir": "run_m8_c0_K20_20261030T231222_5Igh",
+   "meta": [
+    "date=2026-10-30T14:12:22Z",
+    "host=Studio",
+    "args=m=8 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "8276577aa5e6a974cddbf6585a13f608e2554853dc82b4d4bd756648746f5fbd"
+  },
+  {
+   "m": 8,
+   "cidx": 1,
+   "c": 33,
+   "poly": "0x11B",
+   "N": 65536,
+   "directions": 65535,
+   "shards": 20,
+   "Delta": 14,
+   "alpha": 5740,
+   "beta": 365,
+   "run_dir": "run_m8_c1_K20_20261030T231223_rHsV",
+   "meta": [
+    "date=2026-10-30T14:12:23Z",
+    "host=Studio",
+    "args=m=8 cidx=1 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "189178fc22996a46e7462d99466801d217307fcc735d96de4c1349a94110acdc"
+  },
+  {
+   "m": 9,
+   "cidx": 0,
+   "c": 1,
+   "poly": "0x211",
+   "N": 262144,
+   "directions": 262143,
+   "shards": 20,
+   "Delta": 16,
+   "alpha": 620,
+   "beta": 148247,
+   "run_dir": "run_m9_c0_K20_20261030T231223_Mx1F",
+   "meta": [
+    "date=2026-10-30T14:12:23Z",
+    "host=Studio",
+    "args=m=9 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "97a8a9ca4b0d3d0d935a634994806aeded221121ac4b283b35011fd87db81e71"
+  },
+  {
+   "m": 10,
+   "cidx": 0,
+   "c": 128,
+   "poly": "0x409",
+   "N": 1048576,
+   "directions": 1048575,
+   "shards": 20,
+   "Delta": 20,
+   "alpha": 1460,
+   "beta": 120714,
+   "run_dir": "run_m10_c0_K20_20261030T231231_u2ED",
+   "meta": [
+    "date=2026-10-30T14:12:31Z",
+    "host=Studio",
+    "args=m=10 cidx=0 K=20",
+    "bin=./gc_ddt_v2",
+    "bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb",
+    "src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78",
+    "compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)"
+   ],
+   "shard_outputs_sha256": "5cbce52b2b257a37288faab9743293a80b60f6ceb827524688bd579be9617510"
+  }
+ ],
+ "ring_model_runs": [
+  {
+   "m": 1,
+   "c_eltseq": "[ 1 ]",
+   "field_poly": "x",
+   "Delta": 2,
+   "directions": 3,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 2,
+   "c_eltseq": "[ 0, 1 ]",
+   "field_poly": "x^2 + x + 1",
+   "Delta": 4,
+   "directions": 15,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 2,
+   "c_eltseq": "[ 1, 1 ]",
+   "field_poly": "x^2 + x + 1",
+   "Delta": 4,
+   "directions": 15,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 3,
+   "c_eltseq": "[ 1, 0, 0 ]",
+   "field_poly": "x^3 + x + 1",
+   "Delta": 4,
+   "directions": 63,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 3,
+   "c_eltseq": "[ 1, 1, 0 ]",
+   "field_poly": "x^3 + x + 1",
+   "Delta": 4,
+   "directions": 63,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 3,
+   "c_eltseq": "[ 1, 0, 1 ]",
+   "field_poly": "x^3 + x + 1",
+   "Delta": 4,
+   "directions": 63,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 3,
+   "c_eltseq": "[ 1, 1, 1 ]",
+   "field_poly": "x^3 + x + 1",
+   "Delta": 4,
+   "directions": 63,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 0, 0, 0, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 1, 0, 0, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 0, 1, 0, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 1, 1, 0, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 0, 0, 1, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 1, 0, 1, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 0, 1, 1, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 4,
+   "c_eltseq": "[ 1, 1, 1, 1 ]",
+   "field_poly": "x^4 + x + 1",
+   "Delta": 6,
+   "directions": 255,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 0, 0, 0, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 1, 0, 0, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 0, 1, 0, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 1, 1, 0, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 0, 0, 1, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 1, 0, 1, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 0, 1, 1, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 1, 1, 1, 0 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 0, 0, 0, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 1, 0, 0, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 0, 1, 0, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 1, 1, 1, 0, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 0, 0, 1, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 1, 0, 1, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 0, 1, 1, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 5,
+   "c_eltseq": "[ 0, 1, 1, 1, 1 ]",
+   "field_poly": "x^5 + x^2 + 1",
+   "Delta": 10,
+   "directions": 1023,
+   "log": "magma_r04_t5_m1to5.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 6,
+   "c_eltseq": "[ 0, 0, 0, 1, 0, 0 ]",
+   "field_poly": "x^6 + x^4 + x^3 + x + 1",
+   "Delta": 9,
+   "directions": 4095,
+   "log": "magma_r04_t5_m6.log",
+   "completion": "exact final marker; expected set matched"
+  },
+  {
+   "m": 6,
+   "c_eltseq": "[ 1, 0, 0, 1, 0, 0 ]",
+   "field_poly": "x^6 + x^4 + x^3 + x + 1",
+   "Delta": 9,
+   "directions": 4095,
+   "log": "magma_r04_t5_m6.log",
+   "completion": "exact final marker; expected set matched"
+  }
+ ],
+ "excluded_runs": {},
+ "notes": {
+  "digit_runs": "C exit statuses recorded per worker in exit_codes.txt; validated by runner/validate_run.py",
+  "magma": "completion judged by final assertion/PASS marker; OS exit status not recorded by run_magma(detach)",
+  "scope": "consistency of well-formed recorded outputs with the deterministic partition; not a proof of program execution",
+  "magma_expected": "m<=5: every trace-one c (complete); m=6: the two c fixed by cmax=2 (the first two of Magma's enumeration), not all 32"
+ }
+}

@@ -1,0 +1,4 @@
+Case A: low determines b; deg N = 9, lc U; high deg_A 36, lc*kappa^4 = U^8  OK
+Case B: low deg_A 5 monic, b-free; high monic deg_L 4  OK
+Case C: low = v D(a) + s; high deg_L 1 with coefficient s  OK
+T4 PASS

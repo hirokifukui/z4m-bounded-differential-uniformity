@@ -1,0 +1,43 @@
+# r06: expected parameter set of the Magma ring-model logs (read by make_manifest.py)
+# source: A9 Magma r06_t1_expected.m (logs/magma_r06_t1_expected.log), same enumeration as t5_ringmodel_v2.m
+# dim<TAB>log<TAB>m<TAB>f2 (Magma print)<TAB>scope   scope=complete: every trace-one c; scope=fixed: exactly the listed c
+# c<TAB>log<TAB>m<TAB>Eltseq(c) comma-separated
+dim	magma_r04_t5_m1to5.log	1	$.1	complete
+dim	magma_r04_t5_m1to5.log	2	$.1^2 + $.1 + 1	complete
+dim	magma_r04_t5_m1to5.log	3	$.1^3 + $.1 + 1	complete
+dim	magma_r04_t5_m1to5.log	4	$.1^4 + $.1 + 1	complete
+dim	magma_r04_t5_m1to5.log	5	$.1^5 + $.1^2 + 1	complete
+dim	magma_r04_t5_m6.log	6	$.1^6 + $.1^4 + $.1^3 + $.1 + 1	fixed
+c	magma_r04_t5_m1to5.log	1	1
+c	magma_r04_t5_m1to5.log	2	0,1
+c	magma_r04_t5_m1to5.log	2	1,1
+c	magma_r04_t5_m1to5.log	3	1,0,0
+c	magma_r04_t5_m1to5.log	3	1,1,0
+c	magma_r04_t5_m1to5.log	3	1,0,1
+c	magma_r04_t5_m1to5.log	3	1,1,1
+c	magma_r04_t5_m1to5.log	4	0,0,0,1
+c	magma_r04_t5_m1to5.log	4	1,0,0,1
+c	magma_r04_t5_m1to5.log	4	0,1,0,1
+c	magma_r04_t5_m1to5.log	4	1,1,0,1
+c	magma_r04_t5_m1to5.log	4	0,0,1,1
+c	magma_r04_t5_m1to5.log	4	1,0,1,1
+c	magma_r04_t5_m1to5.log	4	0,1,1,1
+c	magma_r04_t5_m1to5.log	4	1,1,1,1
+c	magma_r04_t5_m1to5.log	5	1,0,0,0,0
+c	magma_r04_t5_m1to5.log	5	1,1,0,0,0
+c	magma_r04_t5_m1to5.log	5	1,0,1,0,0
+c	magma_r04_t5_m1to5.log	5	1,1,1,0,0
+c	magma_r04_t5_m1to5.log	5	0,0,0,1,0
+c	magma_r04_t5_m1to5.log	5	0,1,0,1,0
+c	magma_r04_t5_m1to5.log	5	0,0,1,1,0
+c	magma_r04_t5_m1to5.log	5	0,1,1,1,0
+c	magma_r04_t5_m1to5.log	5	1,0,0,0,1
+c	magma_r04_t5_m1to5.log	5	1,1,0,0,1
+c	magma_r04_t5_m1to5.log	5	1,0,1,0,1
+c	magma_r04_t5_m1to5.log	5	1,1,1,0,1
+c	magma_r04_t5_m1to5.log	5	0,0,0,1,1
+c	magma_r04_t5_m1to5.log	5	0,1,0,1,1
+c	magma_r04_t5_m1to5.log	5	0,0,1,1,1
+c	magma_r04_t5_m1to5.log	5	0,1,1,1,1
+c	magma_r04_t5_m6.log	6	0,0,0,1,0,0
+c	magma_r04_t5_m6.log	6	1,0,0,1,0,0

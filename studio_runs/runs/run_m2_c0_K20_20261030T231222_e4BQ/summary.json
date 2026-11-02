@@ -1,0 +1,14 @@
+{
+ "m": 2,
+ "cidx": 0,
+ "c": 2,
+ "poly": "0x7",
+ "K": 20,
+ "N": 16,
+ "ndirs": 15,
+ "Delta": 4,
+ "alpha": 10,
+ "beta": 7,
+ "shards": 20,
+ "status": "PASS"
+}

@@ -1,0 +1,6 @@
+hk0: Jacobian identity OK, MV = 440 OK
+hk1: Jacobian identity OK, MV = 440 OK
+hk2: Jacobian identity OK, MV = 440 OK
+hk3: Jacobian identity OK, MV = 510 OK
+random (p,d,h) Jacobian identity: 6/6 OK
+C1 ALL PASS

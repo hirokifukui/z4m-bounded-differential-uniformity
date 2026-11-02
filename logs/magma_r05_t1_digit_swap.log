@@ -1,0 +1,6 @@
+m=1 q=2 DeltaT=2 (expect q=2) DeltaC=2 (expect q^2/2=2) witness_count=2
+m=2 q=4 DeltaT=4 (expect q=4) DeltaC=8 (expect q^2/2=8) witness_count=8
+m=3 q=8 DeltaT=8 (expect q=8) DeltaC=32 (expect q^2/2=32) witness_count=32
+m=4 q=16 DeltaT=16 (expect q=16) DeltaC=128 (expect q^2/2=128) witness_count=128
+m=5 q=32 DeltaT=32 (expect q=32) DeltaC=512 (expect q^2/2=512) witness_count=512
+PASS r05_t1_digit_swap

@@ -1,0 +1,6 @@
+m=1 q=2 Delta(J)=2 row(alpha=T(1)) max=2
+m=2 q=4 Delta(J)=4 row(alpha=T(1)) max=4
+m=3 q=8 Delta(J)=8 row(alpha=T(1)) max=8
+m=4 q=16 Delta(J)=16 row(alpha=T(1)) max=16
+m=5 q=32 Delta(J)=32 row(alpha=T(1)) max=32
+T1 J PASS

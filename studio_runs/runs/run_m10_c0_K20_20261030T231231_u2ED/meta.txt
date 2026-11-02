@@ -1,0 +1,7 @@
+date=2026-10-30T14:12:31Z
+host=Studio
+args=m=10 cidx=0 K=20
+bin=./gc_ddt_v2
+bin_sha256=d30fd6479922f5465889f92ee171c1f8e0aa83a5f3dc70e840439280cd59d8fb
+src_sha256=0945ef32d16112b3d12798b7cb87863aa3898a4bb5930c15c5b20d2cdbf3aa78
+compiler=Apple clang version 21.0.0 (clang-2100.0.123.102)

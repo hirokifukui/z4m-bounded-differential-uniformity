@@ -1,0 +1,4 @@
+sigma m=3 q/2=4 row alpha=(1,0): max=6
+sigma m=5 q/2=16 row alpha=(1,0): max=22
+sigma m=7 q/2=64 row alpha=(1,0): max=74
+T6 SIGMA PASS
