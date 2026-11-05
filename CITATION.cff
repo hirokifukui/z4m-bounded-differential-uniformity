@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite the paper as below. Licences differ by file: see LICENSE (text CC BY 4.0, code and data MIT)."
 title: "Explicit permutations of (Z/4Z)^m with uniformly bounded differential uniformity: paper and supplementary material"
-version: 1.0.2
-doi: 10.5281/zenodo.23876071
+version: 1.0.3
+doi: 10.5281/zenodo.23969326
 type: software
 repository-code: "https://github.com/hirokifukui/z4m-bounded-differential-uniformity"
 authors:
@@ -17,7 +17,7 @@ preferred-citation:
     - family-names: Fukui
       given-names: Hiroki
       orcid: "https://orcid.org/0009-0008-7122-522X"
-  doi: 10.5281/zenodo.23876071
+  doi: 10.5281/zenodo.23969326
   year: 2026
   license: CC-BY-4.0
 references:

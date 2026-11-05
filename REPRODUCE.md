@@ -1,10 +1,10 @@
-# Reproducing the computations (main_theory_v9)
+# Reproducing the computations (main_theory_v10)
 
 The proofs in the paper do not depend on these computations. They check the stated identities and degrees and
 recompute Table 1.
 
 ## Contents
-- `paper/main_theory_v9.tex`, `paper/main_theory_v9.pdf` — the manuscript.
+- `paper/main_theory_v10.tex`, `paper/main_theory_v10.pdf` — the manuscript.
 - `magma/` — Magma scripts listed in Appendix A, plus `r06_t1_expected.m` (expected parameter list of the ring-model logs).
 - `logs/` — Magma output (A9). Completion of a Magma run is judged by its final assertion/PASS line; the operating-system
   exit status was not recorded.

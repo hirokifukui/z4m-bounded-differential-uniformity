@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3 (2026-11-05)
+No change to any theorem, proof, table value, recorded computation or script.
+- Paper (`paper/main_theory_v10`): the first page (footnote) and the section *Use of AI tools* state the category of AI
+  use defined in the IACR Generative AI Policy (substantial AI contribution), as the IACR ePrint editors asked.
+
 ## 1.0.2 (2026-11-02)
 No change to any theorem, proof, table value, recorded computation or script.
 - Paper (`paper/main_theory_v9`): the affiliation and e-mail are also given on the first page (footnote), as the IACR
